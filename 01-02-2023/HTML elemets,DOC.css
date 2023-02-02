@@ -1,0 +1,81 @@
+html{
+    background-color: #00539f;
+}
+body {
+    width: 600px;
+    text-align: center;
+    margin: 60px auto;
+    background-color: #e9b369;
+    padding: 0px 20px 20px;  
+    /*top right bottom left(anti clock wise)*/
+    /* Apply to all four sides 
+    padding: 1em;
+    top and bottom | left and right 
+    padding: 5% 10%;
+    padding: 1em 2em 2em; top ,left & right,bottom
+    *//*padding*/
+    border: 5px solid rgb(218, 12, 12);
+}
+h1{
+   color: blue;
+   text-align: center;
+   text-shadow: 3px 3px 1px black;
+   
+}
+.para{
+    color: chocolate;
+    font-size: larger;
+    border: 2px solid snow;
+}
+#first{
+    color: blue;
+    border: 3px solid rgb(53, 179, 218);
+}
+a{
+    color: rgb(28, 149, 197);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+img{
+    display: block;
+    margin: 20px 20px 0px;
+    width: 40px;
+}
+p{
+    text-align: center;
+}
+ul{
+    list-style-position: inherit;
+}
+ul{
+    list-style-type: "\1F44D"; 
+    text-align: left;
+}
+#habbies{
+    text-align: left;
+    text-shadow: 0px 0px 0px;
+    color: rgb(151, 25, 25);
+    font-size: 20px;
+}
+h4{
+    text-align: left;
+    color: rebeccapurple;
+    font-size: 30px;
+}
+ol{
+    text-align: left;
+}
+dt::after{
+    content: ": ";
+}
+dl{
+    text-align: left;
+}
+h5{
+    font-size: 20px;
+    text-align: left;
+}
+form{
+    margin-top: 30px;
+}
