@@ -1,0 +1,48 @@
+.ff{
+    font-style:bold;
+    color: aqua;
+}
+html{
+    background-color: #00539f;
+}
+body {
+    width: 600px;
+    text-align: left;
+    margin: 60px auto;
+    background-color: #e9b369;
+    padding: 0px 20px 20px;  
+    /*top right bottom left(anti clock wise)*/
+    /* Apply to all four sides 
+    padding: 1em;
+    top and bottom | left and right 
+    padding: 5% 10%;
+    padding: 1em 2em 2em; top ,left & right,bottom
+    *//*padding*/
+    border: 5px solid rgb(218, 12, 12);
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+  color: rgb(209, 6, 209);
+}
+a[href^="https"][href$=".com"] {
+    color: green;
+}
+:is(h1:, h2) {
+    font-family: sans-serif;
+}
+li {
+    list-style-type: disc;
+  }
+  
+li li {
+    list-style-type: \f164 ;
+}
+p ~ ul {
+    color: red;
+  }
+  img + p {
+    font-weight: bold;
+  }
+  
