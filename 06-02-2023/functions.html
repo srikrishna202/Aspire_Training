@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>Change color</button>
+    <script>
+        const btn = document.querySelector('button');
+
+function random(number) {
+  return Math.floor(Math.random() * (number+1));
+}
+
+btn.addEventListener('click', () => {
+  const rndCol = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
+  document.body.style.backgroundColor = rndCol;
+});
+
+const input = document.querySelector('input');
+const testBox = document.querySelector('#textbox');
+input.addEventListener('keydown', (event) => {
+    testBox.textContent += '${event.code}'
+});
+
+
+</script>
+<button onclick="alert('Hell0');">
+    alert message</button>
+    <input placeholder="Click here, then press down a key." size="40" />
+<p id="textbox"></p>
+</body>
+</html>
