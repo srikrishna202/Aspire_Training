@@ -1,0 +1,21 @@
+div{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    -ms-flex-align: center;
+}
+div>p{
+    margin: 10px;
+    padding: 10px;
+    background-color: aqua;
+}
+body{
+    width: 600px;
+    margin: auto,20px;
+    height: 400px;
+    border: 10px;
+    background-color:burlywood;
+}
+input,label{
+    margin: 10px;
+}
