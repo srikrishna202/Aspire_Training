@@ -1,0 +1,15 @@
+<p>ng-methods works!</p>
+<div>
+    <label>User ID</label>
+    <input type="text" (input) = "checkUserId($event)">
+    <p *ngIf = "messageid ;else Elsepart"> User Id is Safe</p>
+    <ng-template #Elsepart>
+        <div [ngStyle] = "{'color':getcolor()}"><p>Uer id is not safe</p></div>
+    </ng-template>
+</div>
+<div>
+    <p *ngFor = "let print of items" >{{print}}</p>
+</div>
+<app-child [parentData] = "senttochild"></app-child>
+
+<app-child (senttoparent) = 'childData($event)'></app-child>
