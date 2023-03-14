@@ -1,0 +1,21 @@
+<p>template works!</p>
+<div>
+    <img src="download.jpeg" alt="">
+</div>
+<button type="button" (click)="deleteHero()">Delete hero</button>
+
+<input [attr.disabled]="condition? 'true' : null">
+<nav [style.background-color]="expression">Single Binding</nav>
+
+
+
+<div>
+    <button (click)="dec()" title="smaller">-</button>
+    <button (click)="inc()" title="bigger">+</button>
+    <label [style.font-size.px]="size">FontSize: {{size}}px</label>
+  </div>
+  <p>The hero's birthday is {{ birthday | date:"MM/dd/yy" }} </p>
+  {{chechUpperCase | uppercase}}
+<br>
+   {{3.6222 | number: '1.0-2'}}
+   <p>0.259: {{0.259 | percent:'4.3-5':'fr'}}</p>
